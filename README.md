@@ -39,21 +39,21 @@ node).
 source ./setup_environment.sh
 ```
 
-2. Monitor Temperature
+3. Monitor Temperature
 
 ```
 source ./monitor_temperature.sh
 ```
 
-2. Run AmorphousDiskMark (default settings)
+4. Run AmorphousDiskMark (default settings)
 
-3. Stop Monitoring the Temperature
+5. Stop Monitoring the Temperature
 
 ```
 <Ctrl-C>
 ```
 
-4. Save the Results and Graph the Temperature
+6. Save the Results and Graph the Temperature
 
 - Press `Cmd-C` from within AmorphousDiskMark to copy the results.
 - Save the results in text and image format:
