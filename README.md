@@ -8,14 +8,10 @@ AmorphousDiskMark: https://katsurashareware.com/amorphousdiskmark/
 
 Homebrew: https://brew.sh
 
-smartctl: `brew install smartmontools`
-- Used to monitor drive temperature during test.
-
-gnuplot: `brew install gnuplot`
-- Used to plot a graph of the temperature readings.
-
-pngpaste: `brew install pngpaste`
-- Used to save the benchmark results screenshot from the command line.
+Command Line Tools: `brew install smartmontools gnuplot pngpaste`
+- `smartctl`: monitors drive temperature during test.
+- `gnuplot`: plots a graph of the temperature readings.
+- `pngpaste`: saves the benchmark results screenshot from the command line.
 
 ## Preparation
 
