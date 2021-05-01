@@ -1,0 +1,28 @@
+DISK_NAME = ARG1
+DISK_TEMPERATURE_FILE = ARG2
+
+# Output svg
+set terminal svg
+
+# Set graph title
+set title DISK_NAME
+
+# Set axis labels
+set xlabel 'Time (seconds)'
+set ylabel 'Temperature (C)'
+
+# Set a fixed temperature range (C)
+set yrange [15:85]
+
+# Use a line graph
+set style data line
+
+# Plot graph with the following options:
+#
+# for [i=2:3]         Loop for values of i between 2 and 3 (inclusive)
+# using i             Plot column i
+# title columnheader  Use the column headers (first row) as titles
+# linewidth 2         Use thicker lines
+#
+plot for [i=2:3] DISK_TEMPERATURE_FILE using i title columnheader linewidth 2
+
