@@ -78,4 +78,4 @@ system_profiler SPHardwareDataType SPMemoryDataType
 ## Credits
 
 Gnuplot Recipes: http://zenonharley.com/gnuplot/cli/2015/06/29/graphing-data-from-the-command-line.html
-
+Mac System Information through Terminal: https://www.itechlounge.net/2013/09/mac-osx-get-full-system-information-through-terminal/
