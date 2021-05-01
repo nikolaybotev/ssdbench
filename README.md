@@ -36,13 +36,13 @@ node).
 2. Setup the Test Environment
 
 ```
-source ./setup_env.sh
+source ./setup_environment.sh
 ```
 
 2. Monitor Temperature
 
 ```
-source ./temp_mon.sh
+source ./monitor_temperature.sh
 ```
 
 2. Run AmorphousDiskMark (default settings)
@@ -60,7 +60,7 @@ source ./temp_mon.sh
 
 ```
 source ./paste_results.sh
-source ./graph_temp.sh
+source ./graph_temperature.sh
 ```
 
 ## Useful Commands
