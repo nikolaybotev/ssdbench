@@ -65,3 +65,22 @@ source ./paste_results.sh
 ```
 source ./graph_temp.sh
 ```
+
+## Useful Commands
+
+View Storage Configuration (physical link speed, file system, protocol etc):
+
+```
+system_profiler SPUSBDataType SPThunderboltDataType SPStorageDataType
+```
+
+View System Configuration (memory, processor, model):
+
+```
+system_profiler SPHardwareDataType SPMemoryDataType
+```
+
+## Credits
+
+Gnuplot Recipes: http://zenonharley.com/gnuplot/cli/2015/06/29/graphing-data-from-the-command-line.html
+
