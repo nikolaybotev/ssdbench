@@ -51,6 +51,12 @@ source ./temp_mon.sh
 
 2. Run AmorphousDiskMark (default settings)
 
+3. Stop Monitoring the Temperature
+
+```
+<Ctrl-C>
+```
+
 3. Save the Results and Graph the Temperature
 
 - Press Cmd-C from within AmorphousDiskMark to copy the results.
