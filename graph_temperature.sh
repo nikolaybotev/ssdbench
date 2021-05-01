@@ -5,6 +5,5 @@ set xlabel 'Time (seconds)';
 set ylabel 'Temperature (C)';
 set yrange [15:85];
 set style data line;
-set nokey;
-plot '${DISK_TEMPERATURE_FILE}' linewidth 2
+plot for [i=2:3] '${DISK_TEMPERATURE_FILE}' using i title columnheader linewidth 2
 " > "${DISK_TEMPERATURE_GRAPH}"

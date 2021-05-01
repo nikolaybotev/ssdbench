@@ -1,4 +1,6 @@
 n=1
+(
+echo 'Time  Main  "Sensor 2"'
 while true; do
   output="$(smartctl -A "$DISK_ID")"
   main_temp="$(echo "$output" | awk "/^Temperature:/ { print \$2 }")"
@@ -7,5 +9,6 @@ while true; do
   echo "$n\t$main_temp\t$second_temp"
   sleep 1
   n=$((n+1))
-done | tee "${DISK_TEMPERATURE_FILE}"
+done
+) | tee "${DISK_TEMPERATURE_FILE}"
 
