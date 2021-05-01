@@ -40,13 +40,13 @@ node).
 2. Setup the Test Environment
 
 ```
-. ./setup_env.sh
+source ./setup_env.sh
 ```
 
 2. Monitor Temperature
 
 ```
-./temp_mon.sh "${DISK_NUMBER}" | tee "${DISK_TEMPERATURE_FILE}"
+source ./temp_mon.sh
 ```
 
 2. Run AmorphousDiskMark (default settings)
@@ -57,13 +57,11 @@ node).
 - Save the results in text and image format:
 
 ```
-pbpaste | tee "${DISK_RESULTS_TEXT}"
-pngpaste "${DISK_RESULTS_IMAGE}"
+source ./paste_results.sh
 ```
 
 3. Graph the Temperature
 
 ```
-...
-
+source ./graph_temp.sh
 ```
