@@ -51,18 +51,13 @@ source ./temp_mon.sh
 
 2. Run AmorphousDiskMark (default settings)
 
-3. Save the Results
+3. Save the Results and Graph the Temperature
 
 - Press Cmd-C from within AmorphousDiskMark to copy the results.
 - Save the results in text and image format:
 
 ```
 source ./paste_results.sh
-```
-
-3. Graph the Temperature
-
-```
 source ./graph_temp.sh
 ```
 
