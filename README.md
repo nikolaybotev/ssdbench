@@ -19,7 +19,7 @@ pngpaste: `brew install pngpaste`
 
 ## Preparation
 
-1. Quit all applications (Cmd-Tab to cycle through and Cmd-Q to quit).
+1. Quit all applications (`Cmd-Tab` to cycle through and `Cmd-Q` to quit).
 2. Turn off WiFi and Bluetooth, and disconnect Ethernet.
 3. Open Terminal and AmorphousDiskMark
 
@@ -33,7 +33,7 @@ DISK_NAME="SSD in Enclosure on Mac"
 ```
 
 Hint: you can discover the disk identifier (`DISK_ID` above) using Disk Utility: select the disk in Disk Utility from
-the NavBar on the left, and press Cmd-I, then look at the BSD device node (3rd item in the list in the Data Info popup
+the NavBar on the left, and press `Cmd-I`, then look at the BSD device node (3rd item in the list in the Data Info popup
 window; the disk identifier is the word disk followed by a number, excluding the "s..." portion of the BSD device
 node).
 
@@ -59,7 +59,7 @@ source ./temp_mon.sh
 
 4. Save the Results and Graph the Temperature
 
-- Press Cmd-C from within AmorphousDiskMark to copy the results.
+- Press `Cmd-C` from within AmorphousDiskMark to copy the results.
 - Save the results in text and image format:
 
 ```
