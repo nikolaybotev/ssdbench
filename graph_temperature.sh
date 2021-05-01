@@ -3,6 +3,7 @@ set terminal svg;
 set title '${DISK_NAME}';
 set xlabel 'Time (seconds)';
 set ylabel 'Temperature (C)';
+set yrange [15:85];
 set style data line;
 set nokey;
 plot '${DISK_TEMPERATURE_FILE}' linewidth 2
